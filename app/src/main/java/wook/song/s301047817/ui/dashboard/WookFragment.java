@@ -15,15 +15,15 @@ import androidx.lifecycle.ViewModelProviders;
 import wook.song.s301047817.R;
 
 /* Wook Song, 301047817, Section 2 */
-public class DashboardFragment extends Fragment {
+public class WookFragment extends Fragment {
 
-    private DashboardViewModel dashboardViewModel;
+    private WookViewModel dashboardViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         dashboardViewModel =
-                ViewModelProviders.of(this).get(DashboardViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_dashboard, container, false);
+                ViewModelProviders.of(this).get(WookViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_wook, container, false);
         final TextView textView = root.findViewById(R.id.text_dashboard);
         dashboardViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override

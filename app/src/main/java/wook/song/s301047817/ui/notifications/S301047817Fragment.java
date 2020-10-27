@@ -1,4 +1,4 @@
-package wook.song.s301047817.ui.home;
+package wook.song.s301047817.ui.notifications;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -15,17 +15,17 @@ import androidx.lifecycle.ViewModelProviders;
 import wook.song.s301047817.R;
 
 /* Wook Song, 301047817, Section 2 */
-public class HomeFragment extends Fragment {
+public class S301047817Fragment extends Fragment {
 
-    private HomeViewModel homeViewModel;
+    private S301047817ViewModel notificationsViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        homeViewModel =
-                ViewModelProviders.of(this).get(HomeViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_home, container, false);
-        final TextView textView = root.findViewById(R.id.text_home);
-        homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        notificationsViewModel =
+                ViewModelProviders.of(this).get(S301047817ViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_s301047817, container, false);
+        final TextView textView = root.findViewById(R.id.text_notifications);
+        notificationsViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

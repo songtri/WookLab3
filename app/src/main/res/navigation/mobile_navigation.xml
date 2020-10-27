@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="wook.song.s301047817.ui.home.HomeFragment"
+        android:name="wook.song.s301047817.ui.home.SongFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_song" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="wook.song.s301047817.ui.dashboard.DashboardFragment"
+        android:name="wook.song.s301047817.ui.dashboard.WookFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_wook" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="wook.song.s301047817.ui.notifications.NotificationsFragment"
+        android:name="wook.song.s301047817.ui.notifications.S301047817Fragment"
         android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_s301047817" />
 </navigation>
