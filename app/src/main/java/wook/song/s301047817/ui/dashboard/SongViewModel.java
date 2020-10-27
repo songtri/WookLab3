@@ -5,11 +5,11 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
 /* Wook Song, 301047817, Section 2 */
-public class WookViewModel extends ViewModel {
+public class SongViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public WookViewModel() {
+    public SongViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("This is dashboard fragment");
     }

@@ -4,4 +4,8 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="myname" translatable="false">Wook Song</string>
+    <string name="studentid" translatable="false">301047817</string>
+    <string name="main_image_desc" translatable="false">dog</string>
+    <string name="button_clear_text">Clear drawing</string>
 </resources>

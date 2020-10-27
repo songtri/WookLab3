@@ -7,15 +7,15 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="wook.song.s301047817.ui.home.SongFragment"
+        android:name="wook.song.s301047817.ui.home.WookFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_song" />
+        tools:layout="@layout/fragment_wook" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="wook.song.s301047817.ui.dashboard.WookFragment"
+        android:name="wook.song.s301047817.ui.dashboard.SongFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_wook" />
+        tools:layout="@layout/fragment_song" />
 
     <fragment
         android:id="@+id/navigation_notifications"

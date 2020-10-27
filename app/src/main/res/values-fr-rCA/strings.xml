@@ -5,4 +5,5 @@
     <string name="title_home">Domicile</string>
     <string name="title_dashboard">Tableau de bord</string>
     <string name="title_notifications">Notifications</string>
+    <string name="button_clear_text">Dessin clair</string>
 </resources>

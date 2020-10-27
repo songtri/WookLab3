@@ -4,14 +4,16 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
+import wook.song.s301047817.R;
+
 /* Wook Song, 301047817, Section 2 */
-public class SongViewModel extends ViewModel {
+public class WookViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public SongViewModel() {
-        mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+    public WookViewModel() {
+//        mText = new MutableLiveData<>();
+//        mText.setValue(textToShow);
     }
 
     public LiveData<String> getText() {
