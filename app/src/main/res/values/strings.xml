@@ -1,0 +1,7 @@
+<!-- Wook Song, 301047817, Section 2 -->
+<resources>
+    <string name="app_name">WookLab3</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
