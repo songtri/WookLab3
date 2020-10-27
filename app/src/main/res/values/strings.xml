@@ -8,4 +8,9 @@
     <string name="studentid" translatable="false">301047817</string>
     <string name="main_image_desc" translatable="false">dog</string>
     <string name="button_clear_text">Clear drawing</string>
+    <string name="button_launchservice_text">Launch service</string>
+    <string name="button_startanimation">Start</string>
+    <string name="button_stopanimation">Stop</string>
+    <string name="button_ani_speedup" translatable="false">+</string>
+    <string name="button_ani_speeddown" translatable="false">-</string>
 </resources>
