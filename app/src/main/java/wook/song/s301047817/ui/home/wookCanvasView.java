@@ -94,5 +94,6 @@ public class wookCanvasView extends View {
     public void setPenAttribute(int color, int thickness) {
         mPaint.setColor(color);
         mPaint.setStrokeWidth(thickness);
+        invalidate();
     }
 }
