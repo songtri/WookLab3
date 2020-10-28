@@ -6,7 +6,7 @@
     <string name="title_dashboard">Tableau de bord</string>
     <string name="title_notifications">Notifications</string>
     <string name="button_clear_text">Dessin clair</string>
-    <string name="button_launchservice_text">Service de lancement</string>
+    <string name="button_takepicture_text">SePrendre une photo</string>
     <string name="button_startanimation">Début</string>
     <string name="button_stopanimation">Arrêtez</string>
     <string name="button_set_pen_attribute">Ensemble</string>
