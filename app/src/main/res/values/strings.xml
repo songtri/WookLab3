@@ -1,9 +1,9 @@
 <!-- Wook Song, 301047817, Section 2 -->
 <resources>
     <string name="app_name">WookLab3</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">Wook</string>
+    <string name="title_dashboard">Song</string>
+    <string name="title_notifications">S301047817</string>
     <string name="myname" translatable="false">Wook Song</string>
     <string name="studentid" translatable="false">301047817</string>
     <string name="main_image_desc" translatable="false">dog</string>
@@ -13,4 +13,5 @@
     <string name="button_stopanimation">Stop</string>
     <string name="button_ani_speedup" translatable="false">+</string>
     <string name="button_ani_speeddown" translatable="false">-</string>
+    <string name="button_set_pen_attribute">Set</string>
 </resources>

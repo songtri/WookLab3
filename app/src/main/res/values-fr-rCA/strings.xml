@@ -9,4 +9,5 @@
     <string name="button_launchservice_text">Service de lancement</string>
     <string name="button_startanimation">Début</string>
     <string name="button_stopanimation">Arrêtez</string>
+    <string name="button_set_pen_attribute">Ensemble</string>
 </resources>
