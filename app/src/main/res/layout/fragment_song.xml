@@ -9,6 +9,7 @@
 
     <Button
         android:id="@+id/wookTakePicture"
+        style="@style/Style2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -49,6 +50,7 @@
 
         <Button
             android:id="@+id/wookBtnAniStop"
+            style="@style/Style3"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginStart="8dp"
@@ -59,6 +61,7 @@
 
         <Button
             android:id="@+id/wookBtnAniStart"
+            style="@style/Style3"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginStart="8dp"
