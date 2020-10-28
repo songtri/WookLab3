@@ -10,4 +10,10 @@
         <item>10</item>
         <item>20</item>
     </string-array>
+    <string-array name="wookAniPlayTime">
+        <item>0.5</item>
+        <item>1.0</item>
+        <item>1.5</item>
+        <item>2.0</item>
+    </string-array>
 </resources>

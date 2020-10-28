@@ -10,4 +10,5 @@
     <string name="button_startanimation">Début</string>
     <string name="button_stopanimation">Arrêtez</string>
     <string name="button_set_pen_attribute">Ensemble</string>
+    <string name="anim_speed">Durée de l\'animation</string>
 </resources>
